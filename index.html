@@ -1,14 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Passions+Conflict&family=Source+Sans+Pro&family=Tangerine:wght@700&display=swap"
+    rel="stylesheet">
+
+  <title>CV</title>
 </head>
+
 <body>
-    <h1>Julia Bel</h1>
-    <p>There will soon be something</p>
+
+  <header class="header">
+    <section class="profile">
+
+    <div class="container">
+      <div class="foto">
+        <img src="./assets/avatar.jpg" alt="my photo" height="300px" wigth="150px" class="img">
+      </div>
+    
+      <div class="info">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+         
+          <div class="info.text">
+            <h1 sclass="section-title">Julia Bel</h1>
+
+            <h2>Junior front-end developper</h2>
+          </div>
+        </div>
+
+      </div>
+  </header>
+  <main>
+    <div class="container" class="main-container">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Location: Minsk, Belarus</li>
+          <li>Phone: +375 29 123456789</li>
+          <li>Email: juliabel5@gmail.com</li>
+          <li>GitHub: juliaBel5</li>
+        </ul>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>I'm actually working as freelance translator and I'm very passioned about my work. </p>
+        <p>I’m in love with languages that helped me to discover how beautiful is the world. I like travelling and
+          reading and also I’m a curios and open-minded person.</p>
+        <p> I’m making my first steps in learning programming languages that will be all new to my linguistic wardrobe.
+          And who knows where it may lead me</p>
+        <p>Also, I'm a reliable and result-oriented person capable of quick learning as well teaching others about
+          anything I'm knowledgeable on.</p>
+      </section>
+      <section class="section" id="skills">
+
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>Web-development: HTML, CSS, Python</li>
+          <li>Version control: GIT, Github</li>
+          <li>Frameworks: Django</li>
+        </ul>
+        <h2 class="section-title">Courses</h2>
+        <ul>
+          <li class="section-item"><a href="https://www.sololearn.com/">Sololearn</a></li>
+          <li class="section-item"><a href="https://result.school/">Result school</a></li>
+          <li class="section-item"><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container">
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <code>
+          for i in dish: <br>
+              weight = 0 <br>
+              if i in pizza.keys(): weight += pizza[i] <br>
+              if i in salad.keys(): weight += salad[i] <br>
+              print (i,': ', weight, sep='') <br>
+  </code>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>University: Minsk State Linguistic University, French Faculty</p>
+        
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <p>English – C1 (I’m working as freelance translator)</p>
+        <p> French – C2 (I've lived, studied and worked in France )</p>
+        <p>Italian – C1 (I’ve worked in Italy)
+        </p>
+      </section>
+
+    </div>
+
+  </main>
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
 </body>
+
 </html>
