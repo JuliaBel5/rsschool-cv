@@ -109,3 +109,6 @@ h2 {
   .section {
     width: 50%;
   }
+  .logo{
+  display: flex;
+  }
