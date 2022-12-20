@@ -54,11 +54,6 @@ h2 {
   border-radius: 15px;
 }
 
-.container {
-  display: flex;
-  margin: 0 auto;
-}
-
 .nav-list {
   display: flex;
   justify-content: flex-start;
@@ -101,6 +96,10 @@ section {
   padding: 10px;
 
 }
+.container {
+  display: flex;
+  margin: 0 auto;
+}
 
 .section-item a {
   color: #a125c0;
@@ -110,11 +109,6 @@ section {
 
 .section-item a:hover {
   color: #201ead;
-}
-
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .section {
@@ -129,4 +123,5 @@ section {
 
 .logo {
   display: flex;
+  margin-right: 20px;
 }
