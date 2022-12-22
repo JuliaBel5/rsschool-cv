@@ -43,6 +43,10 @@ h2 {
   margin: 20px;
 }
 
+.img:hover {
+  transition: 0.4s;
+  transform: scale(1.15);
+}
 
 .main {
   border: 1pt solid rgb(16, 19, 189);
